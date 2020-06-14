@@ -1,7 +1,7 @@
 {
-  "name": "react-native-canvas",
+  "name": "react-native-canvas-cors",
   "license": "MIT",
-  "version": "0.1.37",
+  "version": "0.0.0",
   "main": "dist/Canvas",
   "scripts": {
     "build": "babel src --out-dir dist --copy-files --compact false && node bundle-html.js ./dist/index.html",
@@ -22,7 +22,7 @@
   "dependencies": {
     "ctx-polyfill": "^1.1.4"
   },
-  "repository": "https://github.com/iddan/react-native-canvas",
+  "repository": "https://github.com/wongyoJung/react-native-canvas.git",
   "peerDependencies": {
     "react-native-webview": ">=5.10.0 || >=6.1.0"
   }
