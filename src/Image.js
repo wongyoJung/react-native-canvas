@@ -20,7 +20,7 @@ export default class Image {
       this.height = height;
     }
   }
-
+  this.crossOrigin = 'anonymous';
   postMessage = message => {
     return this.canvas.postMessage(message);
   };
